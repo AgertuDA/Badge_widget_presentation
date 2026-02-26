@@ -79,7 +79,27 @@ class _BadgeDemoPageState extends State<BadgeDemoPage> {
 
             const SizedBox(height: 12),
 
+            ElevatedButton(
+              onPressed: () {
+                setState(() {
+                  unreadMessages = 0;
+                  showBadge = false;
+                });
+              },
+              child: const Text('Clear Messages'),
+            ),
 
+            const SizedBox(height: 16),
+
+            SwitchListTile(
+              title: const Text('Show / Hide Badge'),
+              value: showBadge,
+              onChanged: (value) {
+                setState(() {
+                  showBadge = value;
+                });
+              },
+            ),
 
             const SizedBox(height: 8),
 
