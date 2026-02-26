@@ -1,16 +1,63 @@
-# badge_widget
+### Badge Widget Demo (Flutter)
 
-A new Flutter project.
+# Description
 
-## Getting Started
+This project is a simple Flutter demo that showcases the Badge widget using a real-world use case: displaying unread email notifications on a mail icon. Badges are commonly used in messaging, email, and social media apps to show important status information at a glance.
 
-This project is a starting point for a Flutter application.
+## Real-World Scenario
 
-A few resources to get you started if this is your first Flutter project:
+In many production apps like email or chat applications, a small number appears on an icon to indicate unread messages.
+This demo recreates that behavior using Flutter’s Badge widget by showing the number of unread messages on a mail icon.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## How to Run the App
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Make sure Flutter is installed on your machine.
+
+``
+flutter pub get
+flutter run
+``
+
+## Widget Demonstrated
+
+Badge
+
+The Badge widget is used to display a small notification indicator on top of another widget, such as an icon.
+
+## Badge Properties Demonstrated
+
+This demo focuses on exactly three Badge properties:
+
+# 1, label
+
+Displays the content inside the badge
+
+In this app, it shows the number of unread messages
+
+Without a label, the badge appears as a small dot
+
+# 2, isLabelVisible
+
+Controls whether the badge is shown or hidden
+
+Used to simulate enabling or disabling notifications
+
+Toggled using a switch in the UI
+
+# 3,backgroundColor
+
+Changes the color of the badge
+
+Used to represent different priorities (e.g., red for urgent messages)
+
+Can be changed dynamically using color buttons
+
+📸 Screenshot
+
+
+
+``
+🗂️ Project Structure (Simplified)
+lib/
+ └── main.dart
+ ``
