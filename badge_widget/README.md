@@ -13,19 +13,19 @@ This demo recreates that behavior using Flutter’s Badge widget by showing the 
 
 Make sure Flutter is installed on your machine.
 
-``
+```
 flutter pub get
 
 flutter run
-``
+```
 
 ## Project Structure
 
-``
+```
 
 lib/
  └── main.dart
- ``
+ ```
 
 ## Widget Demonstrated
 
