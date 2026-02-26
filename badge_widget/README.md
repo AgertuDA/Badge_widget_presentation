@@ -1,6 +1,6 @@
-### Badge Widget Demo (Flutter)
+# Badge Widget Demo 
 
-# Description
+## Description
 
 This project is a simple Flutter demo that showcases the Badge widget using a real-world use case: displaying unread email notifications on a mail icon. Badges are commonly used in messaging, email, and social media apps to show important status information at a glance.
 
@@ -15,12 +15,11 @@ Make sure Flutter is installed on your machine.
 
 ``
 flutter pub get
+
 flutter run
 ``
 
 ## Widget Demonstrated
-
-Badge
 
 The Badge widget is used to display a small notification indicator on top of another widget, such as an icon.
 
@@ -28,7 +27,7 @@ The Badge widget is used to display a small notification indicator on top of ano
 
 This demo focuses on exactly three Badge properties:
 
-# 1, label
+### 1, label
 
 Displays the content inside the badge
 
@@ -36,7 +35,7 @@ In this app, it shows the number of unread messages
 
 Without a label, the badge appears as a small dot
 
-# 2, isLabelVisible
+### 2, isLabelVisible
 
 Controls whether the badge is shown or hidden
 
@@ -44,7 +43,7 @@ Used to simulate enabling or disabling notifications
 
 Toggled using a switch in the UI
 
-# 3,backgroundColor
+### 3,backgroundColor
 
 Changes the color of the badge
 
@@ -57,7 +56,8 @@ Can be changed dynamically using color buttons
 ![Badge Widget Demo Screenshot](badgeWidget-1.png)
 
 ``
-🗂️ Project Structure (Simplified)
+🗂️ Project Structure
+
 lib/
  └── main.dart
  ``
