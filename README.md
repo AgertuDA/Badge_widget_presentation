@@ -14,8 +14,6 @@ This demo recreates that behavior using Flutter’s Badge widget by showing the 
 Make sure Flutter is installed on your machine.
 
 ```
-cd badge_widget
-
 flutter pub get
 
 flutter run
