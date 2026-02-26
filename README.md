@@ -2,8 +2,7 @@
 
 ## Description
 
-This project is a simple Flutter demo that showcases the Badge widget using a real-world use case: displaying unread email notifications on a mail icon. Badges are commonly used in messaging, email, and social media apps to show important status information at a glance.
-
+A Flutter demo showcasing Badge widget, which displays small status indicators (such as unread message counts) on top of icons.
 ## Real-World Scenario
 
 In many production apps like email or chat applications, a small number appears on an icon to indicate unread messages.
@@ -31,30 +30,49 @@ lib/
 
 This demo focuses on exactly three Badge properties:
 
-### 1, label
+### 1. label
 
-Displays the content inside the badge
+```
+label: Text(unreadMessages.toString())
+```
 
-In this app, it shows the number of unread messages
+- Displays the content inside the badge.
 
-Without a label, the badge appears as a small dot
+- In this app, it shows the number of unread messages.
 
-### 2, isLabelVisible
+- By default, if no label is provided, the Badge appears as a small dot without any text.
 
-Controls whether the badge is shown or hidden
+- Developers use this property to clearly communicate counts such as unread messages, notifications, or items in a shopping cart.
 
-Used to simulate enabling or disabling notifications
+### 2. isLabelVisible
 
-Toggled using a switch in the UI
+```
+isLabelVisible: showBadge
+```
 
-### 3,backgroundColor
+- Controls whether the badge is visible or hidden.
 
-Changes the color of the badge
+- By default, this value is true, so the badge is shown.
 
-Used to represent different priorities (e.g., red for urgent messages)
+- In this app, it is toggled using a switch to simulate enabling or disabling notifications.
 
-Can be changed dynamically using color buttons
+- Developers use this property to hide the badge when there is nothing important to show (for example, when the unread count is zero), keeping the user interface clean.
+
+### 3. backgroundColor
+
+```
+backgroundColor: badgeColor
+```
+
+- Changes the background color of the badge.
+
+- By default, the Badge uses a color derived from the app’s Material theme.
+
+- In this app, the color can be changed dynamically using buttons.
+
+- Developers use this property to represent different priorities or states, such as red for urgent alerts and other colors for less critical information.
 
 ## Screenshot
 
-![Badge Widget Demo Screenshot](badgeWidget-1.png)
+
+<img src="badgeWidget-1.png" alt="Badge Widget Demo Screenshot" width="250"/>
