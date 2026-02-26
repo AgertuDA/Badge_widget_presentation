@@ -27,11 +27,7 @@ lib/
  └── main.dart
  ```
 
-## Widget Demonstrated
-
-The Badge widget is used to display a small notification indicator on top of another widget, such as an icon.
-
-## Badge Properties Demonstrated
+## Badge Properties
 
 This demo focuses on exactly three Badge properties:
 
