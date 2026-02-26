@@ -12,19 +12,44 @@ This demo recreates that behavior using Flutter’s Badge widget by showing the 
 
 Make sure Flutter is installed on your machine.
 
-```
-flutter pub get
+1. Clone the repository:
 
+```
+git clone https://github.com/AgertuDA/Badge_widget_presentation.git
+```
+2. Navigate into the project directory:
+
+```
+cd badge_widget_presentation
+```
+6. Run the app:
+
+```
 flutter run
 ```
 
 ## Project Structure
 
 ```
-
-lib/
- └── main.dart
- ```
+badge_widget_presentation/
+├── lib/
+│   └── main.dart
+├── test/
+│   └── widget_test.dart
+├── android/
+├── ios/
+├── web/
+├── linux/
+├── macos/
+├── windows/
+├── .gitignore
+├── .metadata
+├── analysis_options.yaml
+├── badgeWidget-1.png
+├── pubspec.lock
+├── pubspec.yaml
+└── README.md
+```
 
 ## Badge Properties
 
