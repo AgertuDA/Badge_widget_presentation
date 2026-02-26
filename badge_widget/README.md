@@ -19,6 +19,14 @@ flutter pub get
 flutter run
 ``
 
+## Project Structure
+
+``
+
+lib/
+ └── main.dart
+ ``
+
 ## Widget Demonstrated
 
 The Badge widget is used to display a small notification indicator on top of another widget, such as an icon.
@@ -54,10 +62,3 @@ Can be changed dynamically using color buttons
 ## Screenshot
 
 ![Badge Widget Demo Screenshot](badgeWidget-1.png)
-
-``
-🗂️ Project Structure
-
-lib/
- └── main.dart
- ``
