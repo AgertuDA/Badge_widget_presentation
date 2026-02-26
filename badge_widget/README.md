@@ -52,9 +52,9 @@ Used to represent different priorities (e.g., red for urgent messages)
 
 Can be changed dynamically using color buttons
 
-📸 Screenshot
+## Screenshot
 
-
+![Badge Widget Demo Screenshot](badgeWidget-1.png)
 
 ``
 🗂️ Project Structure (Simplified)
